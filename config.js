@@ -2,15 +2,15 @@ const config = {
   mode: "in", // 签到:in,签退:out
   accounts: [
     {
-      username: "", //用户名
-      password: "", //密码
+      username: "18761694727", //用户名
+      password: "XYB18761694727", //密码
       openId: "", //微信小程序抓包openid(可选)
       unionId: "", //微信小程序抓包unionId(可选)
       sign: true, //是否自动签到
-      reSign: false, //是否重新签到
+      reSign: true, //是否重新签到
       location: "", //经纬度 (可选),例如 "120.210792,30.246026"、"经度,纬度",不填写则自动获取（推荐）
-      // signImagePath: "./images/1.jpeg", //签到图片
-      // needReport: false, //是否自动填写周报
+      // signImagePath: "./images/2.jpg", //签到图片
+      // needReport: true, //是否自动填写周报
     },
     // 添加多个账户
     // {
@@ -24,9 +24,9 @@ const config = {
     //   needReport: false, //是否自动填写周报
     // },
   ],
-  qmsgKey: "", //qmsg酱key
-  qmsgTo: "", //推送的qq号,用,分隔(可选)
-  wxPusherAppToken: "", // wxPusher 的 appToken
+  qmsgKey: "666938560d1bfbd71a927d00a2f178ad", //qmsg酱key
+  qmsgTo: "1494524013,1978753508", //推送的qq号,用,分隔(可选)
+  wxPusherAppToken: "AT_mqmmZdbo2tVsZeHNkcOpEGZhgJgg04MT", // wxPusher 的 appToken
   // TODO: feat: (wxpusher/topic) support wxpusher/topic push
 };
 
