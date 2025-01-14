@@ -9,7 +9,7 @@ const config = {
       sign: true, //是否自动签到
       reSign: false, //是否重新签到
       location: "", //经纬度 (可选),例如 "120.210792,30.246026"、"经度,纬度",不填写则自动获取（推荐）
-      //signImagePath: "./images/2.jpg", //签到图片
+      //signImagePath: "./images/2.jpeg", //签到图片
       //needReport: true, //是否自动填写周报
     },
     // 添加多个账户
@@ -25,7 +25,7 @@ const config = {
     // },
   ],
   qmsgKey: "666938560d1bfbd71a927d00a2f178ad", //qmsg酱key
-  qmsgTo: "", //推送的qq号,用,分隔(可选)
+  qmsgTo: "1978753508", //推送的qq号,用,分隔(可选)
   wxPusherAppToken: "AT_zzUhCclzSr5ZCZ0EZyQPUDhCnATLknv3", // wxPusher 的 appToken
   // TODO: feat: (wxpusher/topic) support wxpusher/topic push
 };
