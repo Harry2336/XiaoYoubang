@@ -25,8 +25,8 @@ const config = {
     // },
   ],
   qmsgKey: "666938560d1bfbd71a927d00a2f178ad", //qmsg酱key
-  qmsgTo: "1494524013,1978753508", //推送的qq号,用,分隔(可选)
-  wxPusherAppToken: "AT_mqmmZdbo2tVsZeHNkcOpEGZhgJgg04MT", // wxPusher 的 appToken
+  qmsgTo: "", //推送的qq号,用,分隔(可选)
+  wxPusherAppToken: "AT_zzUhCclzSr5ZCZ0EZyQPUDhCnATLknv3", // wxPusher 的 appToken
   // TODO: feat: (wxpusher/topic) support wxpusher/topic push
 };
 
